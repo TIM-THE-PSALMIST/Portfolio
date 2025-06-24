@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #005f73;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  margin-bottom: 5px;
+}
+
+nav {
+  background-color: #0a9396;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 30px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.project {
+  background-color: #e9ecef;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-left: 5px solid #94d2bd;
+}
+
+.skills-list {
+  list-style: square;
+  padding-left: 20px;
+}
+
+form {
+  background-color: #e9ecef;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #005f73;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0a9396;
+}
+
+footer {
+  text-align: center;
+  background-color: #001219;
+  color: white;
+  padding: 20px;
+}
